@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+	<div class="container">
+		<div id="grid-slider" style="width:63%;float:right;">
+			<div class="row">
+				<div id="masongrid_1">
+					<div class="col-md-9">
+						<div class="col-md-5">
+							<div class="grid-slide" data-sec="2000" data-source="0" style="height: 220px;">
+								<div class="capt grid-cap">
+								</div>
+								<div class="greydout grid-img"></div>
+							</div>
+						</div>
+						<div class="col-md-7">
+							<div class="col-md-12">
+								<div class="grid-slide" data-sec="2100" data-source="1" style="height: 110px;">
+									<div class="capt grid-cap">
+									</div>
+									<div class="greydout grid-img"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="grid-slide" data-sec="2200" data-source="2" style="height: 110px;">
+									<div class="capt grid-cap">
+									</div>
+									<div class="greydout grid-img"></div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="grid-slide" data-sec="2300" data-source="3" style="height: 110px;">
+									<div class="capt grid-cap">
+									</div>
+									<div class="greydout grid-img" ></div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<div class="grid-slide" data-sec="2400" data-source="4" style="height: 115px;">
+								<div class="capt grid-cap">
+								</div>
+								<div class="greydout grid-img" ></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3">
+						<div class="grid-slide" data-sec="2500" data-source="5" style="height: 335px;">
+							<div class="capt grid-cap">
+							</div>
+							<div class="greydout grid-img"  ></div>
+						</div>
+					</div>
+					<div class="col-md-12">
+						<div class="grid-slide" data-sec="2600" data-source="6" style="height: 115px;">
+							<div class="capt grid-cap">
+							</div>
+							<div class="greydout grid-img" ></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/data.js"></script>
+	<script src="js/gridSlider.js"></script>
+	<script>
+		$("#grid-slider").gridSlider({
+			data: psDataSource
+		});
+	</script>
+</body>
+</html>
